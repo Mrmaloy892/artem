@@ -1,0 +1,98 @@
+body{
+    font: 1em sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    background: #1B2939;
+}
+
+header{
+    background: #171D25;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px 75px;
+    gap: 10vw;
+    color: white;
+}
+
+.title{
+    display: flex;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.Game{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+.nav-btn{
+    padding: 10px 15px;
+    width: fit-content;
+    background: #0056B9;
+    border-radius: 20px;
+}
+
+.nav-btn a{
+    width: fit-content;
+    height: auto;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.logo img{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    background-color: #02070c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 75px;
+    width: 100%;
+}
+
+footer a{
+    color: inherit;
+}
+
+.footer-info ul{
+    list-style: none;
+    padding: 0;
+}
+
+main{
+    padding: 0 75px;
+}
+
+.social-media-logo{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+}
+.social-media-logo img{
+    width: 100%;
+}
+
+.footer-social{
+    display: flex;
+}
+.social-media-logo img:first-child{
+    border-radius: 20px;
+}
